@@ -25,6 +25,7 @@ const path = '/';
 
 app.get(path + 'healthcheck', healthcheck.index);
 app.get(path + 'extract/json', extract.getAllJson);
+app.get(path + 'extract/xml', extract.getAllXml);
 app.use(notFound.index);
 
 const server = http.createServer(app);
