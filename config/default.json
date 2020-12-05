@@ -1,0 +1,7 @@
+{
+    "mongo": {
+        "url": "mongodb+srv://[USER]:[PASSWORD]@cluster0.jzaqk.mongodb.net/[DATABASE]?retryWrites=true&w=majority",
+        "db": "[DATABASE]",
+        "collection": "[COLLECTION]"
+    }
+}
